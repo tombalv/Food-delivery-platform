@@ -1,0 +1,33 @@
+/* Main body style */
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+main aside {
+  height: 100vh;
+  width: 20%;
+  background-color: green;
+  display: fixed;
+}
+section {
+  background-color: #eb0101;
+  width: 100%;
+}
+section div {
+  display: flex;
+  background-color: aqua;
+}
+.middle-section {
+  background-color: blue;
+  width: 60%;
+  height: 500px;
+}
+.right-section {
+  background-color: #ffff;
+  width: 40%;
+}
