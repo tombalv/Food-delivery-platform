@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/45-grupe-coming-soon/
+Site published at: https://github.com/tombalv/Food-delivery-platform.git
 
 Design: [Food delivery platform ](https://ibb.co/GVNBBXJ)
 
