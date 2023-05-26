@@ -1,0 +1,27 @@
+ul {
+  height: 100%;
+  background-color: #44d187;
+  padding: 30px 20px 0;
+  color: #fff;
+  padding-right: 0;
+}
+li {
+  display: flex;
+  padding: 15px;
+}
+li:hover {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #fafafaa4;
+  color: #44d187;
+}
+i {
+  padding-right: 15px;
+}
+.menu {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #44d187;
+}
