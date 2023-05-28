@@ -73,3 +73,81 @@ p i {
   margin-bottom: 5px;
   padding: 0.5em;
 }
+
+/* Main content */
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+  font-size: 14px;
+  justify-content: center;
+  background-color: blue;
+}
+.food-product-one {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.rating-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+.food-product-two {
+  width: 250px;
+  height: 330px;
+
+  border-radius: 10px;
+  background-color: aqua;
+}
+.food-product-three {
+  width: 250px;
+  height: 330px;
+
+  border-radius: 10px;
+  background-color: aqua;
+}
+.food-product-four {
+  width: 250px;
+  height: 330px;
+
+  border-radius: 10px;
+  background-color: aqua;
+}
+.food-product-five {
+  width: 250px;
+  height: 330px;
+
+  border-radius: 10px;
+  background-color: aqua;
+}
+.food-product-six {
+  width: 250px;
+  height: 330px;
+
+  border-radius: 10px;
+  background-color: aqua;
+}
+.food-product-seven {
+  width: 250px;
+  height: 330px;
+
+  border-radius: 10px;
+  background-color: aqua;
+}
+.food-product-eight {
+  width: 250px;
+  height: 330px;
+
+  border-radius: 10px;
+  background-color: aqua;
+}
+.food-product-nine {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: aqua;
+}
