@@ -1,8 +1,9 @@
+/* Top content */
 .top-content {
   display: flex;
   gap: 17px;
   align-items: center;
-  font-size: 15px;
+  font-size: 12px;
   padding-left: 20px;
   height: 80px;
   background-color: #fafafa;
@@ -19,7 +20,7 @@ p i {
   color: #fafafa;
 }
 .first-meal i {
-  padding: 0.2em;
+  padding: 0.2em 0.5em;
   border-radius: 20px;
   background-color: white;
   color: #44d187;
@@ -37,7 +38,6 @@ p i {
   color: #fafafa;
   cursor: pointer;
 }
-
 .after-training {
   padding: 0.3em 0.5em;
 }
@@ -47,8 +47,29 @@ p i {
   color: #fafafa;
   cursor: pointer;
 }
-
-.check-out {
-  width: 400px;
-  background-color: aqua;
+/* filter content */
+.filter-content {
+  display: flex;
+  height: 50px;
+  font-size: 12px;
+  padding-left: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.meals-found span {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.sort-menu a {
+  padding: 0;
+  margin: 0.5em;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: none;
+}
+.fa-sort-desc {
+  margin-bottom: 5px;
+  padding: 0.5em;
 }
