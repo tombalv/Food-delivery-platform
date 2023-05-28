@@ -77,6 +77,7 @@ p i {
 /* Main content */
 
 .main-content {
+  padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px 30px;
@@ -84,17 +85,40 @@ p i {
   justify-content: center;
   background-color: blue;
 }
-.food-product-one {
-  width: 250px;
-  height: 330px;
-  border-radius: 10px;
-  background-color: aqua;
-}
+
 .rating-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: red;
+  background-color: #44d187;
+}
+.fa-star {
+  margin: auto;
+  color: yellow;
+  background-color: black;
+}
+.rating {
+  margin: 10px 10px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.fa-heart {
+  margin: auto 10px;
+  padding: 5px;
+  border-radius: 20px;
+
+  color: #fafafa;
+}
+.fa-heart:hover {
+  color: #d74369;
+  cursor: pointer;
+}
+.food-product-one {
+  width: 250px;
+  height: 330px;
+  border-top: 10px;
+  border-radius: 10px;
+  background-color: aqua;
 }
 .food-product-two {
   width: 250px;
