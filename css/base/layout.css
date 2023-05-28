@@ -59,7 +59,7 @@ p i {
 }
 .meals-found span {
   font-weight: bold;
-  padding-right: 5px;
+  padding-right: 4px;
 }
 .sort-menu a {
   padding: 0;
@@ -70,8 +70,8 @@ p i {
   text-transform: none;
 }
 .fa-sort-desc {
-  margin-bottom: 5px;
-  padding: 0.5em;
+  margin-right: 2em;
+  cursor: pointer;
 }
 
 /* Main content */
@@ -217,7 +217,6 @@ button:hover {
 
 @media (max-width: 850px) {
   .top-content {
-    min-width: 500px;
     display: none;
   }
 }
@@ -226,7 +225,7 @@ button:hover {
     display: none;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 650px) {
   .filter-content {
     text-align: left;
     margin-top: 20px;
