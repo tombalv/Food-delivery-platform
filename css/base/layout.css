@@ -1,8 +1,9 @@
+/* Top content */
 .top-content {
   display: flex;
   gap: 17px;
   align-items: center;
-  font-size: 15px;
+  font-size: 12px;
   padding-left: 20px;
   height: 80px;
   background-color: #fafafa;
@@ -19,7 +20,7 @@ p i {
   color: #fafafa;
 }
 .first-meal i {
-  padding: 0.2em;
+  padding: 0.2em 0.5em;
   border-radius: 20px;
   background-color: white;
   color: #44d187;
@@ -37,7 +38,6 @@ p i {
   color: #fafafa;
   cursor: pointer;
 }
-
 .after-training {
   padding: 0.3em 0.5em;
 }
@@ -47,8 +47,170 @@ p i {
   color: #fafafa;
   cursor: pointer;
 }
+/* filter content */
+.filter-content {
+  display: flex;
+  height: 50px;
+  font-size: 12px;
+  padding-left: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.meals-found span {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.sort-menu a {
+  padding: 0;
+  margin: 0.5em;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: none;
+}
+.fa-sort-desc {
+  margin-bottom: 5px;
+  padding: 0.5em;
+}
 
-.check-out {
-  width: 400px;
-  background-color: aqua;
+/* Main content */
+.main-content {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+  font-size: 14px;
+  justify-content: center;
+}
+.rating-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.rating-number {
+  display: flex;
+  margin-left: 7px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: #000;
+}
+.fa-star {
+  margin: auto;
+  color: yellow;
+}
+.rating {
+  margin: auto;
+  color: #fafafa;
+}
+.fa-heart {
+  margin: auto 10px;
+  padding: 5px;
+  border-radius: 20px;
+  color: #000;
+  background-color: white;
+}
+.fa-heart:hover {
+  color: #d74369;
+  cursor: pointer;
+}
+.food-photo {
+  display: flex;
+  height: 180px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.food-name {
+  margin-top: 30px;
+  font-weight: bold;
+  margin-left: 7px;
+}
+.food-price {
+  margin-left: 7px;
+  font-weight: bold;
+}
+.food-name span {
+  background-color: #fafafa;
+  padding: 0.3em 0.3em;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: #e5bde5;
+}
+.food-product-one {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #e5bde5;
+}
+.food-product-two {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #f7f2e4;
+}
+.food-product-three {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #def7f7;
+}
+.food-product-four {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #e4f7f7;
+}
+.food-product-five {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #eff7dd;
+}
+.food-product-six {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #edf3f7;
+}
+.food-product-seven {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #f7ecec;
+}
+.food-product-eight {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #f7f7dc;
+}
+.food-product-nine {
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #f7ebf7;
+}
+.load-more-button {
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 40px;
+  justify-content: center;
+}
+button {
+  color: #47de90b3;
+  font-size: 15px;
+  padding: 7px 7px 7px 5px;
+  border: 1px solid #47de90b3;
+  border-radius: 20px;
+  background-color: #fafafa;
+}
+button i {
+  padding-right: 8px;
+}
+button:hover {
+  background-color: #47de90b3;
+  color: #fafafa;
+  cursor: pointer;
 }
