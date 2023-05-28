@@ -12,6 +12,7 @@ a {
   padding: 1em;
   text-transform: uppercase;
   font-size: 15px;
+  cursor: pointer;
 }
 i {
   padding-left: 0.5em;
@@ -21,6 +22,7 @@ a:hover {
   border-bottom-left-radius: 30px;
   background-color: #fafafaa4;
   color: #44d187;
+  cursor: pointer;
 }
 span {
   padding-left: 1em;
@@ -33,10 +35,10 @@ span {
   pointer-events: none;
 }
 @media (max-width: 850px) {
-  aside {
+  main aside {
     min-width: 100px;
   }
-  span {
+  a span {
     display: none;
   }
 }
