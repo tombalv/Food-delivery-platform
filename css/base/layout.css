@@ -87,27 +87,32 @@ p i {
 }
 
 .rating-info {
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  background-color: #44d187;
+}
+.rating-number {
+  display: flex;
+  margin-left: 7px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: #000;
 }
 .fa-star {
   margin: auto;
   color: yellow;
-  background-color: black;
 }
 .rating {
-  margin: 10px 10px;
-  border-radius: 10px;
-  background-color: black;
+  margin: auto;
+  color: #fafafa;
 }
 
 .fa-heart {
   margin: auto 10px;
   padding: 5px;
   border-radius: 20px;
-
-  color: #fafafa;
+  color: #000;
+  background-color: white;
 }
 .fa-heart:hover {
   color: #d74369;
