@@ -192,3 +192,25 @@ p i {
   border-radius: 10px;
   background-color: #f7ebf7;
 }
+.load-more-button {
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 40px;
+  justify-content: center;
+}
+button {
+  color: #47de90b3;
+  font-size: 15px;
+  padding: 7px 7px 7px 5px;
+  border: 1px solid #47de90b3;
+  border-radius: 20px;
+  background-color: #fafafa;
+}
+button i {
+  padding-right: 8px;
+}
+button:hover {
+  background-color: #47de90b3;
+  color: #fafafa;
+  cursor: pointer;
+}
