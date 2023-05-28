@@ -214,3 +214,26 @@ button:hover {
   color: #fafafa;
   cursor: pointer;
 }
+
+@media (max-width: 850px) {
+  .top-content {
+    min-width: 500px;
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .top-content {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .filter-content {
+    text-align: left;
+    margin-top: 20px;
+    display: block;
+  }
+  .sort-menu {
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+}
