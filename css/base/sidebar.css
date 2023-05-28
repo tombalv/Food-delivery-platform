@@ -33,10 +33,10 @@ span {
   pointer-events: none;
 }
 @media (max-width: 850px) {
-  aside {
+  main aside {
     min-width: 100px;
   }
-  span {
+  a span {
     display: none;
   }
 }

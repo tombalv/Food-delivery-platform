@@ -16,16 +16,11 @@ section {
   background-color: #eb0101;
   width: 100%;
 }
-section div {
-  display: flex;
-  background-color: aqua;
-}
-.middle-section {
+.top-content {
+  height: 70px;
   background-color: blue;
-  width: 60%;
-  height: 500px;
 }
-.right-section {
-  background-color: #ffff;
-  width: 40%;
+.check-out {
+  width: 400px;
+  background-color: aqua;
 }
