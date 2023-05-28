@@ -1,25 +1,53 @@
-/* Main body style */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Ubuntu", sans-serif;
-}
-body {
-  min-width: 450px;
-}
-main {
-  display: flex;
-  flex-direction: row;
-}
-section {
-  background-color: #eb0101;
-  width: 100%;
-}
 .top-content {
-  height: 70px;
-  background-color: blue;
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 20px;
+  height: 80px;
+  background-color: #fafafa;
 }
+p {
+  padding: 0.2em 0.5em;
+}
+p i {
+  margin-right: 3px;
+}
+.first-meal {
+  border-radius: 20px;
+  background-color: #44d187;
+  color: #fafafa;
+}
+.first-meal i {
+  padding: 0.2em;
+  border-radius: 20px;
+  background-color: white;
+  color: #44d187;
+}
+.first-meal:hover {
+  background-color: #47de90b3;
+  cursor: pointer;
+}
+.before-training {
+  padding: 0.3em 0.5em;
+}
+.before-training:hover {
+  border-radius: 20px;
+  background-color: #47de90b3;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.after-training {
+  padding: 0.3em 0.5em;
+}
+.after-training:hover {
+  border-radius: 20px;
+  background-color: #47de90b3;
+  color: #fafafa;
+  cursor: pointer;
+}
+
 .check-out {
   width: 400px;
   background-color: aqua;
