@@ -1,7 +1,9 @@
+/* User notifications */
 .check-out {
   display: flex;
   flex-direction: column;
-  min-width: 250px;
+  min-width: 300px;
+  height: 150vh;
   background-color: #fafafa;
 }
 .user-notifications {
@@ -22,8 +24,91 @@
   margin-top: 10px;
   cursor: pointer;
 }
-@media (max-with: 900px) {
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  max-height: 22%;
+  margin: 20px;
+  gap: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #c5d7e5;
+}
+.order-icon {
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
+  color: rgba(68, 209, 135, 0.1);
+  background-color: rgba(68, 209, 135, 0.1);
+  border-radius: 8px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.order-cart {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+  padding-bottom: 25px;
+}
+.cart-product {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  text-align: left;
+}
+.add-meal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+  width: 65px;
+  border-radius: 10px;
+  border: 1px solid #44d187;
+  margin-left: 15px;
+}
+
+.minus,
+.plus {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0px 8px 0px 9px;
+}
+
+.minus:hover {
+  background-color: #44d187;
+  border-radius: 20px 0 0 20px;
+}
+
+.plus:hover {
+  background-color: #44d187;
+  border-radius: 0 20px 20px 0;
+}
+
+.fa-times-rectangle {
+  color: grey;
+}
+
+.fa-times-rectangle:hover {
+  color: red;
+  cursor: pointer;
+}
+.drag-and-drop-position {
+  display: flex;
+  justify-content: center;
+  border: 3px dashed #44d187;
+}
+.drag-and-drop {
+  text-transform: none;
+  color: #44d187;
+  font-weight: bold;
+  font-size: 17px;
+}
+@media (max-with: 1100px) {
   .check-out {
-    display: none;
+    background-color: red;
   }
 }

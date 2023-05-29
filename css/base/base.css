@@ -4,9 +4,6 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
 }
-body {
-  min-width: 450px;
-}
 main {
   display: flex;
   flex-direction: row;
