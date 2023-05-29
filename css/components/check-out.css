@@ -1,9 +1,7 @@
 /* User notifications */
 .check-out {
-  display: flex;
-  flex-direction: column;
-  min-width: 270px;
-  height: 150vh;
+  min-width: 260px;
+  min-height: 150vh;
   background-color: #fafafa;
 }
 .user-notifications {
@@ -134,9 +132,8 @@
   color: #0000004d;
   cursor: pointer;
 }
-@media (max-with: 1100px) {
+@media (max-width: 1000px) {
   .check-out {
-    background-color: red;
     display: none;
   }
 }

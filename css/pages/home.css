@@ -1,4 +1,4 @@
-@import "../base/sidebar.css";
+@import "../components/sidebar.css";
 @import "../base/layout.css";
 @import "../base/base.css";
-@import "../base/check-out.css";
+@import "../components/check-out.css";

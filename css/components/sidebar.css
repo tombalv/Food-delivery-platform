@@ -1,7 +1,7 @@
 aside {
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  min-height: 150vh;
   min-width: 230px;
   background-color: #44d187;
   padding-top: 80px;

@@ -225,7 +225,7 @@ button:hover {
     display: none;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 500px) {
   .filter-content {
     text-align: left;
     margin-top: 20px;

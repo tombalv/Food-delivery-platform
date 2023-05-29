@@ -34,6 +34,7 @@
   </head>
   <body>
     <main>
+      <!-- Sidebar -->
       <aside>
         <a><i class="fa fa-windows"></i><span>Overview</span></a>
         <a class="menu"><i class="fa fa-list"></i><span>Menu</span></a>
@@ -43,6 +44,7 @@
         <a><i class="fa fa-question-circle"></i><span>Faq</span></a>
       </aside>
       <section>
+        <!-- Top Content -->
         <div class="top-content">
           <p>My Filters:</p>
           <p class="first-meal"><i class="fa fa-cutlery"></i> First Meal</p>
@@ -53,12 +55,14 @@
             <i class="fa fa-trophy"></i>After training
           </p>
         </div>
+        <!-- Filter contents -->
         <div class="filter-content">
           <p class="meals-found"><span>345</span>meals found</p>
           <p class="sort-menu">
             Sorted by:<a>Recommended</a><i class="fa fa-sort-desc"></i>
           </p>
         </div>
+        <!-- Main content -->
         <div class="main-content">
           <div class="food-product-one">
             <div class="rating-info">
@@ -187,115 +191,112 @@
             <p class="food-price">$4.99</p>
           </div>
         </div>
+        <!-- Load more button -->
         <div class="load-more-button">
           <button><i class="fa fa-refresh"></i>Load more</button>
         </div>
       </section>
+      <!-- Shopping cart -->
       <section class="check-out">
         <div class="user-notifications">
           <p><i class="fa fa-bell-o"></i></p>
           <img src="./design/img/user.png" alt="image-user" />
           <p><i class="fa fa-ellipsis-v"></i></p>
         </div>
-        <div>
-          <h1>My order</h1>
-          <div class="order-info">
-            <p><i class="fa fa-clock-o order-icon"></i>14:30 AM</p>
-            <p>
-              <i class="fa fa-map-marker order-icon"></i>Gedimino str. 1,
-              Vilnius
-            </p>
-            <p>
-              <i class="fa fa-commenting order-icon"></i> Dial me for
-              specification
-            </p>
-          </div>
-          <div class="order-cart">
-            <div class="cart-product">
-              <img
-                style="width: 45px; height: 45px"
-                sr
-                src="./design/img/food-1.webp"
-                alt="food-logo"
-              />
-              <p>
-                Dish name <br />
-                <span style="color: grey">200g</span>
-              </p>
-              <div class="add-meal">
-                <a class="minus">-</a>
-                <p>1</p>
-                <a class="plus">+</a>
-              </div>
-              <span style="font-weight: bold; margin-left: 5px"
-                >$4.20 <i class="fa fa-times-rectangle"></i>
-              </span>
-            </div>
-            <div class="cart-product">
-              <img
-                style="width: 45px; height: 45px"
-                sr
-                src="./design/img/food-2.webp"
-                alt="food-logo"
-              />
-              <p>
-                Dish name <br />
-                <span style="color: grey">200g</span>
-              </p>
-              <div class="add-meal">
-                <a class="minus">-</a>
-                <p>1</p>
-                <a class="plus">+</a>
-              </div>
-              <span style="font-weight: bold; margin-left: 5px"
-                >$4.20 <i class="fa fa-times-rectangle"></i>
-              </span>
-            </div>
-            <div class="cart-product">
-              <img
-                style="width: 45px; height: 45px"
-                sr
-                src="./design/img/food-3.webp"
-                alt="food-logo"
-              />
-              <p>
-                Dish name <br />
-                <span style="color: grey">200g</span>
-              </p>
-              <div class="add-meal">
-                <a class="minus">-</a>
-                <p>1</p>
-                <a class="plus">+</a>
-              </div>
-              <span style="font-weight: bold; margin-left: 5px"
-                >$4.20 <i class="fa fa-times-rectangle"></i>
-              </span>
-            </div>
-          </div>
-          <div class="drag-and-drop-position">
-            <a class="drag-and-drop">Drag%Drop</a>
-          </div>
-
-          <div class="total-price">
-            <p>Total</p>
-            <p>$15.49</p>
-          </div>
-          <a class="check-out-btn">Checkout</a>
-          <div class="credit-card">
+        <h1>My order</h1>
+        <!-- User info -->
+        <div class="order-info">
+          <p><i class="fa fa-clock-o order-icon"></i>14:30 AM</p>
+          <p>
+            <i class="fa fa-map-marker order-icon"></i>Gedimino str. 1, Vilnius
+          </p>
+          <p>
+            <i class="fa fa-commenting order-icon"></i> Dial me for
+            specification
+          </p>
+        </div>
+        <!-- Order amount -->
+        <div class="order-cart">
+          <div class="cart-product">
             <img
-              class="visa-img"
-              src="./design/img/visa.webp"
-              alt="visa-logo"
+              style="width: 45px; height: 45px"
+              sr
+              src="./design/img/food-1.webp"
+              alt="food-logo"
             />
-            <p>****</p>
-            <p>****</p>
-            <p>****</p>
-            <p>6132</p>
-            <i class="fa fa-edit"></i>
+            <p>
+              Dish name <br />
+              <span style="color: grey">200g</span>
+            </p>
+            <div class="add-meal">
+              <a class="minus">-</a>
+              <p>1</p>
+              <a class="plus">+</a>
+            </div>
+            <span style="font-weight: bold; margin-left: 5px"
+              >$4.20 <i class="fa fa-times-rectangle"></i>
+            </span>
           </div>
+          <div class="cart-product">
+            <img
+              style="width: 45px; height: 45px"
+              sr
+              src="./design/img/food-2.webp"
+              alt="food-logo"
+            />
+            <p>
+              Dish name <br />
+              <span style="color: grey">200g</span>
+            </p>
+            <div class="add-meal">
+              <a class="minus">-</a>
+              <p>1</p>
+              <a class="plus">+</a>
+            </div>
+            <span style="font-weight: bold; margin-left: 5px"
+              >$4.20 <i class="fa fa-times-rectangle"></i>
+            </span>
+          </div>
+          <div class="cart-product">
+            <img
+              style="width: 45px; height: 45px"
+              sr
+              src="./design/img/food-3.webp"
+              alt="food-logo"
+            />
+            <p>
+              Dish name <br />
+              <span style="color: grey">200g</span>
+            </p>
+            <div class="add-meal">
+              <a class="minus">-</a>
+              <p>1</p>
+              <a class="plus">+</a>
+            </div>
+            <span style="font-weight: bold; margin-left: 5px"
+              >$4.20 <i class="fa fa-times-rectangle"></i>
+            </span>
+          </div>
+        </div>
+        <!-- Drag and drop button -->
+        <div class="drag-and-drop-position">
+          <a class="drag-and-drop">Drag%Drop</a>
+        </div>
+        <div class="total-price">
+          <p>Total</p>
+          <p>$15.49</p>
+        </div>
+        <!-- Check out info -->
+        <a class="check-out-btn">Checkout</a>
+        <div class="credit-card">
+          <img class="visa-img" src="./design/img/visa.webp" alt="visa-logo" />
+          <p>****</p>
+          <p>****</p>
+          <p>****</p>
+          <p>6132</p>
+          <i class="fa fa-edit"></i>
         </div>
       </section>
     </main>
   </body>
 </html>
-<i></i>
