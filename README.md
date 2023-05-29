@@ -77,6 +77,6 @@ Tomas: [Github](https://github.com/tombalv)
 Distributed under the ISC License. See LICENSE.txt for more information.
 
 ## 🔗 Other resources
-
-No other resources.
 [FontAwesome icons](https://fontawesome.com)
+[Favicons](https://favicon.io)
+
