@@ -2,7 +2,7 @@
 .check-out {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
+  min-width: 270px;
   height: 150vh;
   background-color: #fafafa;
 }
@@ -24,31 +24,28 @@
   margin-top: 10px;
   cursor: pointer;
 }
-
 .order-info {
   display: flex;
   flex-direction: column;
   max-height: 22%;
-  margin: 20px;
-  gap: 20px;
+  padding-top: 20px;
+  gap: 10px;
   padding-bottom: 25px;
   border-bottom: 1px solid #c5d7e5;
 }
 .order-icon {
-  display: inline-block;
-  text-align: center;
-  padding: 8px;
-  color: rgba(68, 209, 135, 0.1);
-  background-color: rgba(68, 209, 135, 0.1);
+  color: #44d187;
+  background-color: #b9e8cfcf;
   border-radius: 8px;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   margin-right: 10px;
+  padding: 5px;
+  text-align: center;
 }
 .order-cart {
   display: flex;
   flex-direction: column;
-
   gap: 20px;
   padding-bottom: 25px;
 }
@@ -68,7 +65,6 @@
   border: 1px solid #44d187;
   margin-left: 15px;
 }
-
 .minus,
 .plus {
   text-decoration: none;
@@ -77,21 +73,17 @@
   margin: auto;
   padding: 0px 8px 0px 9px;
 }
-
 .minus:hover {
   background-color: #44d187;
   border-radius: 20px 0 0 20px;
 }
-
 .plus:hover {
   background-color: #44d187;
   border-radius: 0 20px 20px 0;
 }
-
 .fa-times-rectangle {
   color: grey;
 }
-
 .fa-times-rectangle:hover {
   color: red;
   cursor: pointer;
@@ -107,8 +99,30 @@
   font-weight: bold;
   font-size: 17px;
 }
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  max-height: 22px;
+  padding: 20px 0 0 0;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.check-out-btn {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: center;
+  color: #fff;
+  text-transform: none;
+  text-decoration: none;
+  border-radius: 35px;
+  background-color: #44d187;
+  box-shadow: -2px 2px 8px #0000004d;
+}
 @media (max-with: 1100px) {
   .check-out {
     background-color: red;
+    display: none;
   }
 }
